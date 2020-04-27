@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&family=Syncopate:wght@700&display=swap');
+
+/*structure*/
+
+
+body {
+  margin: 0;
+  background-image:url(images/savanna-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  align: center; 
+}
+
+header  {
+  background-color: rgb(255, 255, 255, .5);
+  height: 150px;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Syncopate', sans-serif;
+}
+
+
+main {
+margin: 20px;
+font-family: 'Lexend Giga', sans-serif;
+color: rgb(84, 39, 59);
+text-align: center;
+}
+
+div {
+  background-color: rgb(255, 255, 255, .5);
+  padding: 5px;
+}
+
+hr {
+  border: 2px solid rgb(239, 221, 125);
+  box-shadow: 0px 0px 15px rgb(84, 39, 59)
+}
+
+footer  {
+  background-color: rgb(84, 39, 59);
+  height: 150px;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+}
+/*logo*/
+
+header h1 {
+  font-size: 48px;
+  color: rgb(239, 221, 125);
+  text-shadow: 0px 0px 15px rgb(84, 39, 59);
+}
+
+header h3 {
+  color: rgb(84, 39, 59);
+  font-size: 24px;
+  text-shadow: 0px 0px 15px rgb(95, 162, 234);
+  
+}
+
+/*type*/
+
+main h2 {
+  color: rgb(138, 168, 118);
+  font-size: 28px;
+}
+
+ul {
+  list-style-image: url('images/pawprint.png');
+  display: inline-block;
+  text-align: left;
+}
+
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
+a:link { color: rgb(138, 168, 118); }
+a:visited { color: rgb(84, 39, 59); }
+a:hover { color: rgb(95, 162, 234); }
+a:active { color: rgb(239, 221, 125); }
+
+/* elements */
+
+iframe { 
+  border: 2px solid rgb(239, 221, 125);
+  border-radius: 8px;
+  } 
+
+div.me img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 15px rgb(95, 162, 234);
+}
+
+table {
+  max-width: 100%;
+  font-size: 6px;
+  
+}
+
+table img {
+  max-width: 50px;
+  height: auto;
+}
